@@ -1,6 +1,6 @@
 import os
 from rllab.baselines.linear_feature_baseline import LinearFeatureBaseline
-from rllab.envs.mujoco.gather.swimmer_gather_env import SwimmerGatherEnv
+#from rllab.envs.mujoco.gather.swimmer_gather_env import SwimmerGatherEnv
 os.environ["THEANO_FLAGS"] = "device=cpu"
 
 from rllab.policies.gaussian_mlp_policy import GaussianMLPPolicy
