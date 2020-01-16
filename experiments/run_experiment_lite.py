@@ -100,4 +100,5 @@ def run_experiment(argv):
 
 
 if __name__ == "__main__":
+    print("experiment called as main!")
     run_experiment(sys.argv)
